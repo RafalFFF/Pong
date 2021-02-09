@@ -1,0 +1,36 @@
+#column{
+    background-color: rgb(6, 18, 68);
+    width: 120px;
+    height: 400px;
+    float: left;
+}
+body{
+    background: #05056d;
+}
+.btn{
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: black;
+    color: aliceblue;
+}
+.btn:hover{
+    color: green;
+    cursor: pointer;
+}
+button{
+    width: 120px;
+}
+button:active{
+    border: none;
+}
+.hide{
+    display: none;
+}
+#info{
+    color:white;
+    margin-top: 50px;
+    padding: 5px;
+}
